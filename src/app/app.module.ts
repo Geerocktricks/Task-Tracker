@@ -15,6 +15,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TestingghPagesComponent } from './components/testinggh-pages/testinggh-pages.component';
 
 const appRoutes: Routes = [
   {
@@ -37,6 +38,7 @@ const appRoutes: Routes = [
     AddTaskComponent,
     AboutComponent,
     FooterComponent,
+    TestingghPagesComponent,
   ],
   imports: [
     BrowserModule,
